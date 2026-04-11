@@ -1,4 +1,4 @@
-import { CopyCheck, CopyCheckIcon, CopyIcon } from "lucide-react";
+import { CopyCheckIcon, CopyIcon } from "lucide-react";
 import { Fragment, useCallback, useMemo, useState } from "react";
 import { Hint } from "./hint";
 import { Button } from "./ui/button";

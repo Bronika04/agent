@@ -1,0 +1,43 @@
+You are a senior game developer and UI designer.
+
+Create a Flappy Bird-style game using React (or plain JavaScript with Canvas) that is intentionally easier and more enjoyable for beginners.
+
+Gameplay Adjustments (make it easier):
+
+* Reduce gravity so the bird falls slowly
+* Increase jump strength slightly for better control
+* Slow down pipe movement speed
+* Increase gap between pipes
+* Add slight forgiveness in collision detection (hitbox padding)
+* Add a short grace period after each flap where collision is ignored (100–200ms)
+
+User Experience:
+
+* Smooth animations (no jitter)
+* Responsive controls (spacebar + mouse click)
+* Add subtle visual feedback when jumping
+* Show current score and best score
+
+Difficulty Design:
+
+* Start very easy
+* Gradually increase difficulty over time (optional but smooth)
+* Never become frustratingly hard
+
+UI Design:
+
+* Clean and minimal
+* Soft colors, not harsh contrast
+* Centered layout with good spacing
+* Add restart button and game over screen
+
+Architecture:
+
+* Separate game logic from rendering
+* Use clean functions for physics, collision, and rendering
+* Keep code modular and readable
+
+Output:
+
+* Full working code
+* Explanation of how difficulty tuning works

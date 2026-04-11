@@ -13,7 +13,7 @@ interface AgentState{
 }
 export const codeAgentFunction = inngest.createFunction(
   { id: "code-agent" ,
-    retries:2
+    retries:4
   },
   { event: "code-agent/run" },
   async ({ event}) => {
@@ -29,7 +29,7 @@ export const codeAgentFunction = inngest.createFunction(
       model: openai({ model: "gpt-4.1",
         defaultParameters:{
           temperature:0.1,
-          max_completion_tokens:3500
+          max_completion_tokens:5000
         }
        },),
       tools:[
